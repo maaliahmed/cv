@@ -1,7 +1,7 @@
 section,in_resume,title,institution,loc,start,end,description_1
 education,TRUE,"MS. Program Evaluation and Data Analytics",Arizona State University,"Tempe, AZ",2023, 2024, NA
 education,TRUE,"B.S., Sociology (minor Family and Human Development)",Arizona State University,"Tempe, AZ",2009, 2013, NA
-industry_positions,FALSE, Data evaluation postion, "Phoenix, AZ",2026,2029, any company 
-industry_positions,FALSE, dream job two - program analyst ,"Phoenix, AZ",2024,2026, NA
-industry_positions,FALSE, Data evalution Intern, anywhere, "Phoenix, AZ",2023,2023,Worked with the product analytics team to help evaluate social service programs
+industry_positions,FALSE, Data evaluation postion, company, "Phoenix, AZ",2026,2029, any company 
+industry_positions,FALSE, dream job two - program analyst, company,"Phoenix, AZ",2024,2026, somewhere
+industry_positions,FALSE, Data evalution Intern, company, "Phoenix, AZ",2023,2023,Worked with the product analytics team to help evaluate social service programs
 
