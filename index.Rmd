@@ -143,17 +143,7 @@ print_section(position_data, 'industry_positions')
 
 
 
-Selected Data Science Writing {data-icon=chart-line}
---------------------------------------------------------------------------------
 
-
-::: aside
-I tried to make this CV two pages but I couldnt think of more to write. I do understand the format and love that I have the option to utilize this in the future. 
-:::
-
-```{r}
-print_section(position_data, 'data_science_writings')
-```
 
 
 
