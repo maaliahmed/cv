@@ -1,5 +1,5 @@
 ---
-title: "Maali Ahmed's CV"
+title: "Maali Ahmed CV"
 author: Maali Ahmed
 date: "`r Sys.Date()`"
 output:
@@ -63,9 +63,11 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> maali.ahmed@asu.edu
-- <i class="fa fa-github"></i> github.com/maaliahmed
-- <i class="fa fa-phone"></i> (555) 555-0055
+- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
+- <i class="fa fa-twitter"></i> NicholasStrayer
+- <i class="fa fa-github"></i> github.com/nstrayer
+- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
+- <i class="fa fa-phone"></i> (734) 645-0110
 
 
 
@@ -75,9 +77,13 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "Tying R",              4,
-  "future Python",        3,
-  "maybe Java",           2
+  "R",                  5,
+  "Javascript (d3.js)", 4.5,
+  "Python",             4,
+  "Bash",               3.5,
+  "SQL",                3,
+  "C++",                3,
+  "AWK",                3
 )
 
 build_skill_bars(skills)
@@ -102,14 +108,14 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Maali Ahmed {#title}
+Nick Strayer {#title}
 --------------------------------------------------------------------------------
 
 
 ```{r}
-intro_text <- "I am currently in school trying to obsorb all this knowledge.
+intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
 
-In the futre, I will be searching for a program evaluation role. 
+Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
 "
 
 cat(sanitize_links(intro_text))
@@ -126,11 +132,20 @@ print_section(position_data, 'education')
 
 
 
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'research_positions')
+```
+
+
+
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
-I have not worked in this field yet.  I like collaborative environments where I can learn from my peers. 
+I have worked in a variety of roles ranging from journalist to software engineer to data scientist. I like collaborative environments where I can learn from my peers. 
 :::
 
 ```{r}
@@ -141,12 +156,57 @@ print_section(position_data, 'industry_positions')
 <br>
 <br>
 
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+::: aside
+I am passionate about education. I believe that no topic is too complex if the teacher is empathetic and willing to think about new methods of approaching task. 
+:::
+
+```{r}
+print_section(position_data, 'teaching_positions')
+```
+
+
+Selected Data Science Writing {data-icon=chart-line}
+--------------------------------------------------------------------------------
+
+
+::: aside
+I regularly blog about data science and visualization on my blog [LiveFreeOrDichotomize.](https://livefreeordichotomize.com/)
+:::
+
+```{r}
+print_section(position_data, 'data_science_writings')
+```
+
+
+
+Selected Press (About)  {data-icon=newspaper}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'about_me_press')
+```
+
+
+
+Selected Press (By)  {data-icon=newspaper}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'by_me_press')
+```
 
 
 
 
+Selected Publications, Posters, and Talks {data-icon=book}
+--------------------------------------------------------------------------------
 
-
+```{r}
+print_section(position_data, 'academic_articles')
+```
 
 
 
@@ -167,5 +227,4 @@ Links {data-icon=link}
   })
 }
 ```
-
 
