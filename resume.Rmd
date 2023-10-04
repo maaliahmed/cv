@@ -54,9 +54,10 @@ Contact {#contact}
 
 
 
-- <i class="fa fa-envelope"></i> maali.ahmed@asu.edu
+- <i class="fa fa-envelope"></i> maali.ahmed@gmail.com
+- <i class="fa fa-twitter"></i> maali
 - <i class="fa fa-github"></i> github.com/maaliahmed
-- <i class="fa fa-phone"></i> (555)555-5555
+- <i class="fa fa-phone"></i> (555) 555-5555
 
 
 
@@ -79,16 +80,18 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/maaliahmed/<name>`
+All projects available at `github.com/nstrayer/<name>`
 
 
-
+- `shinysense`: R package to use sensor data in Shiny apps
+- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
+- `slid3r`: D3 add-on for fully svg slider inputs
 
 
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at maaliahmed.me/cv for more complete list of positions and publications.
+See full CV at maali.me/cv for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
@@ -110,8 +113,9 @@ Maali Ahmed {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I am a college student trying to learn R.
-Currently searching for a program evaluation position that allows me to build tools using visualization to help people explore and understand their data. 
+intro_text <- "I am on a mission to learn R.
+
+Currently searching for a policy evaluation position. 
 "
 
 
@@ -136,5 +140,11 @@ Selected Positions {data-icon=suitcase}
 position_data %>% print_section('positions')
 ```
 
+Selected Writing {data-icon=newspaper}
+--------------------------------------------------------------------------------
 
+
+```{r}
+position_data %>% print_section('writings')
+```
 
