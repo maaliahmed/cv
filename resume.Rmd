@@ -80,18 +80,16 @@ build_skill_bars(skills)
 Open Source Contributions {#open-source}
 --------------------------------------------------------------------------------
 
-All projects available at `github.com/nstrayer/<name>`
+All projects available at `github.com/maaliahmed/<name>`
 
 
-- `shinysense`: R package to use sensor data in Shiny apps
-- `tuftesque`: Hugo theme (behind LiveFreeOrDichotomize.com)
-- `slid3r`: D3 add-on for fully svg slider inputs
+- `multiple`: R code
 
 
 More info {#more-info}
 --------------------------------------------------------------------------------
 
-See full CV at maali.me/cv for more complete list of positions and publications.
+See full CV at nickstrayer.me/cv for more complete list of positions and publications.
 
 
 Disclaimer {#disclaimer}
@@ -114,9 +112,7 @@ Maali Ahmed {#title}
 
 ```{r}
 intro_text <- "I am on a mission to learn R.
-
-Currently searching for a policy evaluation position. 
-"
+Currently searching for a policy evaluation position."
 
 
 cat(sanitize_links(intro_text))
