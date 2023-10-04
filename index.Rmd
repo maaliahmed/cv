@@ -63,11 +63,9 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
+- <i class="fa fa-envelope"></i> maali.ahmed@gmail.com
+- <i class="fa fa-github"></i> github.com/maaliahmed
+- <i class="fa fa-phone"></i> (555) 555-0000
 
 
 
@@ -77,13 +75,9 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
-  "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
-  "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "R",                  2,
+  "Javascript (d3.js)", 1,
+  "Python",             1
 )
 
 build_skill_bars(skills)
@@ -108,14 +102,14 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Maali Ahmed {#title}
 --------------------------------------------------------------------------------
 
 
 ```{r}
-intro_text <- "I have made [visualizations viewed by hundreds of thousands of people](https://www.nytimes.com/interactive/2016/08/26/us/college-student-migration.html), [sped up query times for 25 terabytes of data by an average of 4,800 times](https://livefreeordichotomize.com/2019/06/04/using_awk_and_r_to_parse_25tb/), and built [packages for R](https://github.com/nstrayer/shinysense) that let you [do magic](http://nickstrayer.me/dataDayTexas/).
+intro_text <- "I have worked on multiple projects using R.
 
-Currently searching for a data science position that allows me to build tools using visualization and machine learning to help people explore and understand their data. 
+Currently searching for a policy evaluation position. 
 "
 
 cat(sanitize_links(intro_text))
@@ -145,7 +139,7 @@ Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
-I have worked in a variety of roles ranging from journalist to software engineer to data scientist. I like collaborative environments where I can learn from my peers. 
+I have worked in a variety of roles that required analysis and data visualization.
 :::
 
 ```{r}
@@ -160,7 +154,7 @@ Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ::: aside
-I am passionate about education. I believe that no topic is too complex if the teacher is empathetic and willing to think about new methods of approaching task. 
+I am passionate about education.  
 :::
 
 ```{r}
@@ -173,7 +167,7 @@ Selected Data Science Writing {data-icon=chart-line}
 
 
 ::: aside
-I regularly blog about data science and visualization on my blog [LiveFreeOrDichotomize.](https://livefreeordichotomize.com/)
+I do no blog.
 :::
 
 ```{r}
