@@ -4,8 +4,8 @@ education,TRUE,"B.S., Sociology (minor Family and Human Development)",Arizona St
 industry_positions,FALSE, Data evaluation postion, company, "Phoenix, AZ",2026,2029, any company 
 industry_positions,FALSE, dream job two - program analyst, company,"Phoenix, AZ",2024,2026, somewhere
 industry_positions,FALSE, Data evalution Intern, company, "Phoenix, AZ",2023,2023,Worked with the product analytics team to help evaluate social service programs
-research_positions,FALSE,Research Assistant, "Tempe, AZ" ,Arizona State Univeristy,2024,2025, constructed statistical models for data in the behavioral health field
-research_positions,FALSE, policy analyst, "Phoenix, AZ", nonprofit,2025,2026,Developed model to predict outcome of policy changes in the phoenix area
+research_positions,FALSE,Research Assistant,"Tempe, AZ",Arizona State Univeristy,2024,2025, constructed statistical models for data in the behavioral health field
+research_positions,FALSE, policy analyst,"Phoenix, AZ", nonprofit,2025,2026,Developed model to predict outcome of policy changes in the phoenix area
 research_positions,TRUE,Data Science Researcher,any location, at a university,2026,2026,Building or developing something
 industry_positions,FALSE,data evaluation expert,"Phoenix, CA",2024,2025,non profit, created visualization framework and training tools
 industry_positions,TRUE,another job , "Phoenix, AZ",2030,2035,somthing that helps the local community 
